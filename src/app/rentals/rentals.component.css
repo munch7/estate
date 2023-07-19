@@ -1,0 +1,27 @@
+a:hover, a:active{
+    color: orange;
+}
+.link{
+    margin-left: 15px;
+    float: right;
+    font-size: 30px;
+    color: white;
+}
+.img{
+    padding: 0px;
+    margin: 0%;
+    border-radius: 16px;
+}
+a{
+    text-decoration: none;
+    color: orange;
+}
+button{
+    border: 4px solid orange;
+    padding: 0%;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 20px;
+    background: none;
+    font-size: x-large;
+}

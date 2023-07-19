@@ -1,0 +1,39 @@
+<div class="col-xs-12 col-sm-12 col-md-12" style="padding: 0px;" align="center">
+    <div class="col-xs-12 col-sm-12 col-md-12" style="background: black; padding: 10px;">
+        <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-12">
+            <a routerLink="/rentals"><img src="../../assets/img/R Group Logo (Transparent).webp" width="100%"></a>
+        </div>
+        <div class="col-md-4 col-sm-3 col-xs-12">
+            <!-- <a class="link" href="https://www.instagram.com/recel_group/" target="blank"><i class="fa fa-instagram"></i></a>
+            <a class="link" href="https://www.youtube.com/channel/UCP2czB-ByMt6aq52ylA7rWA" target="blank"><i class="fa fa-youtube"></i></a> -->
+        </div>
+    </div>
+    <app-nav></app-nav>
+
+    <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+        <h1>Properties</h1>
+        <owl-carousel-o [options]="customOptions" style="position: sticky; font-size: larger;">
+            <ng-template carouselSlide>
+                <button routerLink="h1"><img class="img" src="../../../assets/h1/IMG_2539.JPG"></button><br>
+                ANNETTE FLATS
+            </ng-template>
+            <!-- <ng-template carouselSlide>
+                <button routerLink="h1"><img class="img" src="../../../assets/h1/IMG_2539.JPG"></button><br>
+                ANNETTE FLATS
+            </ng-template>
+            <ng-template carouselSlide>
+                <button routerLink="h1"><img class="img" src="../../../assets/h1/IMG_2539.JPG"></button><br>
+                ANNETTE FLATS
+            </ng-template>
+            <ng-template carouselSlide>
+                <button routerLink="h1"><img class="img" src="../../../assets/h1/IMG_2539.JPG"></button><br>
+                ANNETTE FLATS
+            </ng-template> -->
+        </owl-carousel-o>
+    </div>
+
+    <div class="col-md-12 col-sm-12 col-xs-12">
+        <router-outlet></router-outlet>
+    </div>
+
+</div>

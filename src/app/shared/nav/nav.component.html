@@ -1,0 +1,25 @@
+<div class="col-md-12 col-sm-12 col-xs-12" fxShow="true" fxHide.lt-md="true" >
+    <nav class="navbar">
+        <!-- <a class="nav-link" routerLink="/radio" routerLinkActive="active">Radio</a>
+        <a class="nav-link" routerLink="/music" routerLinkActive="active">Music</a>
+        <a class="nav-link" routerLink="/buy" routerLinkActive="active">Buy-Beats</a>
+        <a class="nav-link" routerLink="/sell" routerLinkActive="active">Sell-Beats</a>
+        <a class="nav-link" routerLink="/shop" routerLinkActive="active">Shop</a> -->
+        <a class="nav-link" routerLink="/vehicle" routerLinkActive="active">Vehicles</a>
+        <a class="nav-link" routerLink="/rentals" routerLinkActive="active">Properties</a>
+    </nav>
+</div>
+<div class="col-md-12 col-sm-12 col-xs-12"  fxHide fxShow.lt-md>
+    <mat-toolbar style="background: transparent;">
+      <mat-menu #menu="matMenu" fxShow="true" fxHide.lt-md="true">
+        <!-- <button mat-menu-item routerLink="/radio">Radio</button>
+        <button mat-menu-item routerLink="/music">Music</button>
+        <button mat-menu-item routerLink="/buy">Buy-Beats</button>
+        <button mat-menu-item routerLink="/sell">Sell-Beats</button>
+        <button mat-menu-item routerLink="/shop">Shop</button> -->
+        <button mat-menu-item routerLink="/vehicle">Vehicles</button>
+        <button mat-menu-item routerLink="/rentals">Properties</button>
+      </mat-menu>
+      <button mat-button [matMenuTriggerFor]="menu" fxHide fxShow.lt-md>Menu</button>
+    </mat-toolbar>
+</div>

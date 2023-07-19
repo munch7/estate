@@ -1,0 +1,11 @@
+.container{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    color: black;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    padding: 10px;
+}
