@@ -7,7 +7,6 @@ import * as AOS from 'aos';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
-  title = 'estate';
   
   ngOnInit(){
     AOS.init();
